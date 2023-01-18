@@ -1,4 +1,4 @@
-package org.example;
+package org.example.gradeCalculator;
 
 public class Course {
     private String subject;

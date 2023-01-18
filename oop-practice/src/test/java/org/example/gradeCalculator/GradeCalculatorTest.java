@@ -1,4 +1,4 @@
-package org.example;
+package org.example.gradeCalculator;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -16,7 +16,6 @@ public class GradeCalculatorTest {
     // 객체지향 프로그래밍, 자료구조, 영어회화 -> 과목(코스) 클래스
 
     // 이수한 과목을 전달하여 평균학점 계산 요청 -> 학점 계산기 -> (학점수×교과목 평점)의 합계/수강신청 총학점 수 -> 각각의 연산을 과목(코스) 클래스에게 요청
-
 
     @DisplayName("평균 학점을 계산한다.")
     @Test
